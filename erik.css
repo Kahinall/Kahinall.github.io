@@ -1,0 +1,464 @@
+/*HEADER*/
+
+header {
+      width:100%;
+      height:240px;
+      text-align: center;
+      background: url('ImageErik2.jpg');
+      background-size: cover;
+      color: white;
+      margin-bottom: 0px;
+      margin-top: -10px;
+      padding: 0px 0px 0px 0px;   
+      border-radius: 20px;  
+}
+
+h1 {
+  text-align: center;
+  font-family: "Sue Ellen Francisco", cursive;
+  letter-spacing: 4px;
+  padding: 40px 0px 0px 0px;
+  font-size: 1000%;
+  text-shadow:
+    -1px -1px 0 #70043E,
+    1px -1px 0 #70043E,
+    -1px 1px 0 #70043E,
+    1px 1px 0 #70043E; 
+  
+}
+
+/*NAVBAR*/
+
+ul#navbar {
+      
+      background: #A30054;
+      margin-top: 0px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 20px;
+}
+    li#navbarli {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      margin-top: 200px;
+      font-family: "Mountains of Christmas";
+           
+    }
+
+    	a#navbara {
+    		color: white;
+    		text-decoration: none;
+    		font-size: 20px;
+
+    	}
+
+body{
+  background: #FFCF69;
+
+  
+}
+
+article{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+h3{
+	font-family: "noteworthy";
+	color: #870077;
+  font-size: 30px;
+}
+
+
+h4{
+	padding: 20px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: Vibur;
+	color: #058CB5;
+	font-style: italic;
+	font-size: 25px;
+  
+}
+
+
+
+p{
+  font-family: Dekko;
+  line-height: 30px;
+  font-size: 20px;
+  text-indent: 50px;
+  margin-top:0px;
+}
+
+p#quote{
+	
+	font-weight: bolder;
+	font-size: 25px;
+	color: #005673;
+	font-family: Vibur;
+	text-align: right;
+	line-height: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/*WELCOME*/
+
+p#actu1{
+  font-family: "Sue Ellen Francisco";
+  line-height: 40px;
+  font-size: 30px;
+  text-align: center;
+  text-indent: 0px;
+  margin: 10px;
+  color: #1B7A00;
+}
+
+p#actu2{
+  font-family: "Mountains of Christmas";
+  font-style: bold;
+  color: #C90A80;
+  line-height: 30px;
+  font-size: 35px;
+  text-align: center;
+  text-indent: 0px;
+  margin: 10px;
+  margin-bottom: 20px;
+  
+
+}
+
+a#actu{
+  
+  color: #C90A80;
+}
+
+img.img-circle{
+  height:200px;
+  width: 200px;
+  border-width: 2px;
+  border-color: red;
+
+
+}
+
+/*ERIK*/
+
+h3.erik1 {
+  padding-top: 125px;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+img.photoerik1 {
+  transform: rotate(-7deg);
+	margin-top: 50px;
+	height: 300px;
+	margin-bottom: 10px;
+	
+}
+
+.bottombio{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/*ANIMATIONS*/
+
+img.anim1 {
+	transform: rotate(-3deg);
+	height: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+
+img.anim3 {
+	transform: rotate(4deg);
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+/*EXHIBITIONS*/
+
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+	max-height: 200%;
+  max-width:100%;
+  margin-top: 10px;
+}
+
+
+/*SHOWS*/
+
+#mainViewer {
+    background: #F5A040;
+    border-radius: 20px;
+    
+}
+
+.chapter-thumbnail{
+  height: 110px;
+  text-align: center;
+  background: #A30054;
+  font-size: 20px;
+  overflow: hidden;
+  color: white;
+  border-radius: 20px;
+}
+
+h3#show{
+  font-family: "Mountains of Christmas";
+  font-style: bold;
+  padding-bottom: 3px;
+  color: white;
+}
+
+h3#showanimomes{
+  padding-top: 15px;
+  color: white;
+  font-family: "Mountains of Christmas";
+
+}
+
+p#show{
+  color: #570346;
+
+}
+
+/*FOOTER*/
+
+#footer{
+  background: #15BFBF;
+  border-radius: 20px;
+  
+}
+p#footer{
+  font-family: "noteworthy";
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  margin-right: 100px;
+}
+
+#email_icon {
+  height: 80px;
+  width: 80px;
+
+}
+
+#email_icon2 {
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+
+#email_icon3 {
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+
+/*PUBLICATIONS*/
+
+#pub_img{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#pub_img7{
+  height: 200px;
+  width: 300px;
+
+}
+p#pub{
+  text-indent: 0px;
+  text-align: left;
+  padding-top: 0px;
+  white-space: pre;
+  margin-top: 0px;
+  text-align: center;
+  color: #0D4B63;
+
+}
+ h3#pub{
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+ p#star{
+  font-size: 50px;
+  margin: 0;
+  padding: 0px;
+  color: #870077;
+  font-size: 60px;
+ }
+
+ img.music{
+  height: 40px;
+  width: 40px;
+ }
+
+/*MEDIA QUERY*/
+
+@media (max-width: 1000px) { 
+      
+      h1 {
+        font-size: 36px;
+      }
+      li#navbarli {
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+
+       }
+       ul#navbar {
+        padding: 5px;
+      }
+      a#navbara {
+        font-size: 15px;
+      }
+      h4{
+        font-size: 10px;
+      }
+      header{
+        margin-top: 5px;
+        height:120px;
+      }
+      article{
+      margin-left: 10px;
+      margin-right: 10px;
+      }
+      
+      p{
+        font-size: 15px;
+        text-indent: 5px;
+        line-height: 20px;
+      }
+      h3{
+        font-size:20px;
+      }
+      p#quote{ 
+        font-size: 15px;
+      }
+
+      img.anim1 {
+        height: 100px;
+      }
+      img.anim3 {
+        height: 150px;
+      }
+      h3.erik1 {
+        font-size: 15px;
+        padding-top: 75px;
+      }
+      img.photoerik1 {
+        height: 150px;
+      }
+
+      iframe{
+        width:255px; 
+        height: 157px;
+      } 
+
+
+      img.img-circle{
+        height: 100px;
+        width: 100px;
+      }
+      p#actu1{
+        font-size: 15px;
+        line-height: 18px;
+      }
+      p#actu2{
+        font-size: 15px;
+        line-height: 15px;
+      }
+
+      p#footer{
+        font-size: 12px;
+        text-align: right;
+        margin: 0;
+
+        
+      }
+
+      #email_icon {
+        height: 40px;
+        width: 40px;
+
+      }
+
+      #email_icon2 {
+        height: 25px;
+        width: 25px;
+        margin: 8px;
+      }
+
+      #email_icon3 {
+        height: 25px;
+        width: 25px;
+        margin-right: 13px;
+        
+      }
+
+      h3#show{
+        font-size: 18px;
+      }
+
+      .chapter-thumbnail{
+        height: 110px;
+        width: 110px;
+      }
+
+      #pub_img{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+      }
+      #pub_img7{
+        height: 100px;
+        width: 150px;
+
+      }
+      
+       h3#pub{
+        font-size: 15px;
+       }
+
+       p#star{
+        font-size: 40px;
+       }
+
+       img.music{
+        height: 20px;
+        width: 20px;
+       }
+
+       img#ateliers{
+        height: 50px;
+       }
+      
+}
+
+
+
