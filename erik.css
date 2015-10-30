@@ -67,7 +67,7 @@ article{
 }
 
 h3{
-	font-family: "noteworthy";
+	font-family: "Give You Glory";
 	color: #870077;
   font-size: 30px;
 }
@@ -152,6 +152,8 @@ h3.erik1 {
   text-align: center;
   font-style: italic;
   font-size: 30px;
+  font-family: "Give You Glory";
+
 }
 
 img.photoerik1 {
@@ -248,7 +250,7 @@ p#show{
   
 }
 p#footer{
-  font-family: "noteworthy";
+  font-family: "Give You Glory";
   color: white;
   font-size: 25px;
   text-align: right;
@@ -302,6 +304,7 @@ p#pub{
   margin-bottom: 0px;
   padding-bottom: 0px;
   text-align: center;
+  font-family: "Give You Glory";
  }
 
  p#star{
