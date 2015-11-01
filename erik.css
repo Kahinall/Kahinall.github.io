@@ -193,10 +193,12 @@ img.anim3 {
 /*EXHIBITIONS*/
 
 .crop-img{
-  max-height:150px;
+  max-height:100%;
   max-width:100%;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
+
 
 .large-img{
 	max-height: 200%;
