@@ -31,7 +31,7 @@ h1 {
 
 ul#navbar {
       
-      background: #A30054;
+      background: #C80067;
       margin-top: 0px;
       padding: 10px;
       text-align: center;
@@ -67,18 +67,18 @@ article{
 }
 
 h3{
-	font-family: "Give You Glory";
-	color: #870077;
+	font-family: "Mountains of Christmas";
+	color: #C80067;
   font-size: 30px;
 }
 
-
+/*Erik, animations musicales et visuelles pour les enfants de la Réunion*/
 h4{
 	padding: 20px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
-	font-family: Vibur;
+	font-family: "Give You Glory";
 	color: #058CB5;
-	font-style: italic;
+	
 	font-size: 25px;
   
 }
@@ -97,8 +97,8 @@ p#quote{
 	
 	font-weight: bolder;
 	font-size: 25px;
-	color: #005673;
-	font-family: Vibur;
+	color: #058CB5;
+	font-family: "Give You Glory";
 	text-align: right;
 	line-height: 20px;
   margin-bottom: 40px;
@@ -108,40 +108,46 @@ p#quote{
 /*WELCOME*/
 
 p#actu1{
-  font-family: "Sue Ellen Francisco";
-  line-height: 40px;
+  font-family: "Give You Glory";
+  line-height: 35px;
   font-size: 30px;
   text-align: center;
   text-indent: 0px;
-  margin: 10px;
-  color: #1B7A00;
+  color: #058CB5;
+  padding-top: 45px;
+}
+
+.circle{
+    margin:10px;
+    width:360px;
+    height: 270px;
+    background:#FFD885;
+    text-align:center;
+    border-radius:260px;
+    padding: 15px;
+    
 }
 
 p#actu2{
   font-family: "Mountains of Christmas";
   font-style: bold;
-  color: #C90A80;
+  color: #C80067;
   line-height: 30px;
   font-size: 35px;
-  text-align: center;
-  text-indent: 0px;
   margin: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  text-align: center;
   
 
 }
 
 a#actu{
-  
-  color: #C90A80;
+  color: #C80067;
 }
 
 img.img-circle{
-  height:200px;
-  width: 200px;
-  border-width: 2px;
-  border-color: red;
-
+  height:270px;
+  width: 270px;
 
 }
 
@@ -150,9 +156,8 @@ img.img-circle{
 h3.erik1 {
   padding-top: 125px;
   text-align: center;
-  font-style: italic;
   font-size: 30px;
-  font-family: "Give You Glory";
+  font-family: "Mountains of Christmas";
 
 }
 
@@ -210,7 +215,7 @@ img.anim3 {
 /*SHOWS*/
 
 #mainViewer {
-    background: #F5A040;
+    background: #FFCF69;
     border-radius: 20px;
     
 }
@@ -247,7 +252,7 @@ p#show{
 /*FOOTER*/
 
 #footer{
-  background: #15BFBF;
+  background: #058CB5;
   border-radius: 20px;
   
 }
@@ -259,9 +264,10 @@ p#footer{
   margin-right: 100px;
 }
 
-#email_icon {
-  height: 80px;
-  width: 80px;
+#email_icon1 {
+  height: 50px;
+  width: 50px;
+  background: white;
 
 }
 
@@ -269,6 +275,7 @@ p#footer{
   height: 50px;
   width: 50px;
   margin: 8px;
+  padding: 2px;
 }
 
 #email_icon3 {
@@ -306,7 +313,7 @@ p#pub{
   margin-bottom: 0px;
   padding-bottom: 0px;
   text-align: center;
-  font-family: "Give You Glory";
+  font-family: "Mountains of Christmas";
  }
 
  p#star{
@@ -322,12 +329,18 @@ p#pub{
   width: 40px;
  }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERY FOR TABLET*/
 
-@media (max-width: 1000px) { 
+@media (max-width: 1300px) { 
+
+      .container{
+        margin: 0 auto;
+
+      }
       
       h1 {
-        font-size: 36px;
+        font-size: 116px;
+        padding: 24px 0px 0px 0px;
       }
       li#navbarli {
         display: inline;
@@ -339,14 +352,14 @@ p#pub{
         padding: 5px;
       }
       a#navbara {
-        font-size: 15px;
+        font-size: 20px;
       }
       h4{
-        font-size: 10px;
+        font-size: 20px;
       }
       header{
         margin-top: 5px;
-        height:120px;
+        height:190px;
       }
       article{
       margin-left: 10px;
@@ -354,15 +367,15 @@ p#pub{
       }
       
       p{
-        font-size: 15px;
+        font-size: 20px;
         text-indent: 5px;
-        line-height: 20px;
+        line-height: 25px;
       }
       h3{
-        font-size:20px;
+        font-size:30px;
       }
       p#quote{ 
-        font-size: 15px;
+        font-size: 20px;
       }
 
       img.anim1 {
@@ -372,7 +385,7 @@ p#pub{
         height: 150px;
       }
       h3.erik1 {
-        font-size: 15px;
+        font-size: 30px;
         padding-top: 75px;
       }
       img.photoerik1 {
@@ -380,8 +393,8 @@ p#pub{
       }
 
       iframe{
-        width:255px; 
-        height: 157px;
+        width:355px; 
+        height: 257px;
       } 
 
 
@@ -399,34 +412,34 @@ p#pub{
       }
 
       p#footer{
-        font-size: 12px;
+        font-size: 22px;
         text-align: right;
         margin: 0;
 
         
       }
 
-      #email_icon {
-        height: 40px;
-        width: 40px;
+      #email_icon1 {
+        height: 35px;
+        width: 35px;
 
       }
 
       #email_icon2 {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
         margin: 8px;
       }
 
       #email_icon3 {
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
         margin-right: 13px;
         
       }
 
       h3#show{
-        font-size: 18px;
+        font-size: 20px;
       }
 
       .chapter-thumbnail{
@@ -435,8 +448,8 @@ p#pub{
       }
 
       #pub_img{
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         margin-top: 10px;
       }
       #pub_img7{
@@ -446,7 +459,7 @@ p#pub{
       }
       
        h3#pub{
-        font-size: 15px;
+        font-size: 26px;
        }
 
        p#star{
@@ -454,8 +467,8 @@ p#pub{
        }
 
        img.music{
-        height: 20px;
-        width: 20px;
+        height: 25px;
+        width: 25px;
        }
 
        img#ateliers{
