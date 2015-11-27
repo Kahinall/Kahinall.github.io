@@ -18,6 +18,7 @@
 			href="erik.css">
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
+
 		<link href='https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Chewy|Coming+Soon|Luckiest+Guy|Patrick+Hand|Fredericka+the+Great|Sue+Ellen+Francisco|Give+You+Glory|Kranky|Short+Stack|Patrick+Hand+SC|Mountains+of+Christmas|Vibur|Snowburst+One|League+Script|Jacques+Francois+Shadow|Rum+Raisin|Dekko' rel='stylesheet' type='text/css'>
 
 	</head>
@@ -39,16 +40,47 @@
 
 		</header>
 
-		<ul id="navbar">
-		      <li id="navbarli"><a id="navbara" href="biographie.html">sur le site d'Erik</a></li>
-		    </ul>
+
+			
+<nav>			      <!-- start collapsed navbar-->
+
+			      <div class="container-fluid">
+			        <button 
+				        type="button" 
+				        class="navbar-toggle" 
+				        data-toggle="collapse"
+				        data-target="#main_navbar"
+				        aria-label="Left Align"
+				        id="menu">
+				        <span class="glyphicon glyphicon-align-justify"></span>
+        			</button>
+			      </div><!-- / collapsed navbar-->
+
+
+			      <!-- start un-collapsed navbar-->
+			      <div 
+			         class="collapse navbar-collapse" 
+			         id="main_navbar">
+			        <ul id="navbar">
+			          	<li class="active" id="navbarli"><a id="navbara" href="index.html">Bienvenue</a></li>
+					    <li id="navbarli"><a id="navbara" href="biographie.html">Erik</a></li>
+					    <li id="navbarli"><a id="navbara" href="spectacles.html">Spectacles</a></li>
+					    <li id="navbarli"><a id="navbara" href="soundpainting.html">Soundpainting</a></li>
+					    <li id="navbarli"><a id="navbara" href="animationsinstrumentales.html">Animations</a></li>
+					    <li id="navbarli"><a id="navbara" href="expositions.html">Expositions</a></li>
+					    <li id="navbarli"><a id="navbara" href="publications.html">Publications</a></li>
+			        </ul>
+			      </div><!-- / un-collapsed navbar-->
+</nav>
+
+</div>
 
 		<style>
 			a#navbara:hover {
 		    background-color: #E31B9A;
 			}
 			</style>	
-</div>
+
 
 <article>
 
@@ -62,47 +94,25 @@
 
 			<div class="row">
 
-				<div class="col-xs-2">	
+				<div class="col-sm-2">	
 				</div>
 
-				<div class="col-xs-3">
+				<div class="col-sm-3">
 						<a href="biographie.html"><img class= "img-circle time1" 
-							src="Erik_bulle.jpg"> </a>	
-				</div>
-
-				<div class="col-xs-2">	
-				</div>
-
-				<div class="col-xs-3">
-						<a href="spectacles.html"><img class= "img-circle time2" 
-							src="bergere.jpg"> </a>	
-				</div>
-							
-				<div class="col-xs-2">	
-				</div>
-
-			</div>
-
-
-			<!--ROW 1.2 -->
-
-			<div class="row">
-
-				<div class="col-xs-2">	
-				</div>
-
-				<div class="col-xs-3">
+							src="Erik_bulle.jpg"> </a>	<br>
 						<p id="actu2">  <a id="actu"  href="biographie.html">Erik</a></p>
 				</div>
 
-				<div class="col-xs-2">	
+				<div class="col-sm-2">	
 				</div>
 
-				<div class="col-xs-3">
+				<div class="col-sm-3">
+						<a href="spectacles.html"><img class= "img-circle time2" 
+							src="bergere.jpg"> </a>	<br>
 						<p id="actu2">  <a id="actu"  href="spectacles.html">Spectacles</a></p>
 				</div>
 							
-				<div class="col-xs-2">	
+				<div class="col-sm-2">	
 				</div>
 
 			</div>
@@ -110,79 +120,47 @@
 			<!-- ROW 2.1 -->
 
 			<div class="row">
-				<div class="col-xs-3">
+				<div class="col-sm-3">
 						<a href="soundpainting.html"><img class= "img-circle time3" 
-							src="img_soundpainting1.jpg"> </a>
+							src="img_soundpainting1.jpg"> </a> <br>
+						<p id="actu2"> <a  id="actu" href="soundpainting.html"> Soundpainting </a></p>
 				</div>
-				<div class="col-xs-1">	
+				<div class="col-sm-1">	
 				</div>
-				<div class="col-xs-4">
+				<div class="col-sm-4">
 						<div class="circle"> <p id="actu1"> <i>Erik a pour mission de présenter aux enfants, et de 							créer avec eux, des spectacles musicaux de qualité. </i></p>
 						</div>	
 				</div>
-				<div class="col-xs-1">	
+				<div class="col-sm-1">	
 				</div>
-				<div class="col-xs-3">
+				<div class="col-sm-3">
 						<a href="animationsinstrumentales.html"><img class= "img-circle time4" 
-							src="anim3.jpg"></a>
-				</div>
-			</div>
-
-			<!-- ROW 2.2 -->
-
-			<div class="row">
-				<div class="col-xs-3">
-						<p id="actu2"> <a  id="actu" href="soundpainting.html"> Soundpainting </a></p>
-				</div>
-				<div class="col-xs-1">	
-				</div>
-				<div class="col-xs-4">	
-				</div>
-				<div class="col-xs-1">	
-				</div>
-				<div class="col-xs-3">
-					<p id="actu2"> <a id="actu" href="animationsinstrumentales.html">  Animations</a></p> 	
+							src="anim3.jpg"></a> <br>
+						<p id="actu2"> <a id="actu" href="animationsinstrumentales.html">  Animations</a></p> 	
 				</div>
 			</div>
 
 			<!-- ROW 3.1 -->
 
 			<div class="row">
-				<div class="col-xs-2">	
+				<div class="col-sm-2">	
 				</div>
-				<div class="col-xs-3">
-					<a id="actu" href="expositions.html"><img class= "img-circle time5" 
-							src="IMG_1508.jpg">	</a>
+				<div class="col-sm-3">
+						<a id="actu" href="expositions.html"><img class= "img-circle time5" src="IMG_1508.jpg">	</a> <br>
+						<p id="actu2"> <a id="actu" href="expositions.html"> Expositions</a></p>
 				</div>
-				<div class="col-xs-2">	
+				<div class="col-sm-2">	
 				</div>
-				<div class="col-xs-3">
+				<div class="col-sm-3">
 						<a href="publications.html"><img class= "img-circle time6" 
-							src="IMG_1548.jpg"> </a>			
+							src="IMG_1548.jpg"> </a> <br>
+						<p id="actu2"> <a id="actu" href="publications.html">Publications </a></p>				
 				</div>
-				<div class="col-xs-2">	
-				</div>
-			</div>
-
-			<!-- ROW 3.2 -->
-
-			<div class="row">
-				<div class="col-xs-2">	
-				</div>
-				<div class="col-xs-3">
-						<p id="actu2"> <a id="actu" href="expositions.html"> Expositions</a></p>		
-				</div>
-				<div class="col-xs-2">	
-				</div>
-				<div class="col-xs-3">
-						<p id="actu2"> <a id="actu" href="publications.html">Publications </a></p>			
-				</div>
-				<div class="col-xs-2">	
+				<div class="col-sm-2">	
 				</div>
 			</div>
 
-
-
+			
 	</center>
 
 </article>
@@ -191,11 +169,19 @@
 	<div id="footer">
 
 		<i>
-			<p id="footer"> 
+		<center>
+		<ul>
+			<li id="footer">
 				Contactez-moi <a href="mailto:delimelo@wanadoo.fr"> <img class= "img-circle" id="email_icon1" src="email_icon.png"> </a>
+			</li>
+			<li id="footer">
 				 Aimez-moi <a href="https://www.facebook.com/mizikerik/" target="_blank"> <img class= "img-circle" id="email_icon2" src="facebook_icon.png"> </a> 
+			</li>
+			<li id="footer">
 				 Suivez-moi <a href="https://twitter.com/mizikerik" target="_blank"> <img class= "img-circle" id="email_icon3" src="twitter.png"> </a>
-			</p>
+			</li>
+		</ul>	
+		</center>
 		</i>
 				
 	</div>
@@ -203,7 +189,8 @@
 </div>
 </body>
 
-
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <script> 
 function Blink (){ 

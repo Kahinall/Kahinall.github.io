@@ -33,15 +33,34 @@
 			
 		</header>
 
-		<ul id="navbar">
-		      <li id="navbarli"><a id="navbara" href="index.html">Bienvenue</a></li>
-		      <li id="navbarli"><a id="navbara" href="biographie.html">Erik</a></li>
-		      <li id="navbarli"><a id="navbara" href="spectacles.html">Spectacles</a></li>
-		      <li id="navbarli"><a id="navbara" href="soundpainting.html">Soundpainting</a></li>
-		      <li id="navbarli"><a id="navbara" href="animationsinstrumentales.html">Animations Instrumentales</a></li>
-		      <li id="navbarli"><a id="navbara" href="expositions.html">Expositions</a></li>
-		      <li id="navbarli"><a id="navbara" href="publications.html">Publications</a></li>
-		    </ul>
+<nav>			      <!-- start collapsed navbar-->
+			      <div class="container-fluid">
+			        <button 
+				        type="button" 
+				        class="navbar-toggle" 
+				        data-toggle="collapse"
+				        data-target="#main_navbar"
+				        aria-label="Left Align"
+				        id="menu">
+				        <span class="glyphicon glyphicon-align-justify"></span>
+        			</button>
+			      </div><!-- / collapsed navbar-->
+
+			      <!-- start un-collapsed navbar-->
+			      <div 
+			         class="collapse navbar-collapse" 
+			         id="main_navbar">
+			        <ul id="navbar">
+			          	<li  id="navbarli"><a id="navbara" href="index.html">Bienvenue</a></li>
+					    <li id="navbarli"><a id="navbara" href="biographie.html">Erik</a></li>
+					    <li id="navbarli"><a id="navbara" href="spectacles.html">Spectacles</a></li>
+					    <li class="active" id="navbarli"><a id="navbara" href="soundpainting.html">Soundpainting</a></li>
+					    <li id="navbarli"><a id="navbara" href="animationsinstrumentales.html">Animations</a></li>
+					    <li id="navbarli"><a id="navbara" href="expositions.html">Expositions</a></li>
+					    <li id="navbarli"><a id="navbara" href="publications.html">Publications</a></li>
+			        </ul>
+			      </div><!-- / un-collapsed navbar-->
+</nav>
 
 		    <style>
 			a#navbara:hover {
@@ -49,12 +68,17 @@
 			}
 			</style>
 
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+
+<div class="container article">
+
 		<article>
 
 		<p id="quote">«La musique c’est du bruit qui pense» <br></br> Victor Hugo.</p>
 
 		<center>
-		<iframe width="420" height="315" src="https://www.youtube.com/embed/ZFDvnc0_obQ" frameborder="0" allowfullscreen></iframe>
+		<iframe class="video_soundpainting" width="420" height="315" src="https://www.youtube.com/embed/ZFDvnc0_obQ" frameborder="0" allowfullscreen></iframe>
 		</center>
 		<br></br>
 			<p>Erik, après avoir suivi un stage en Suède auprès de Walter Thomson, est certifié soundpainteur. Il peut ainsi enseigner ce langage musicale aux enfants et aux éducateurs. Il l’utilise très souvent pour réaliser en public des performances musicales avec des musiciens en herbe, amateurs et même professionnels.
@@ -71,15 +95,24 @@
 
 
 		</article>
+</div>
 
 <div id="footer">
 
 		<i>
-			<p id="footer"> 
+		<center>
+		<ul>
+			<li id="footer">
 				Contactez-moi <a href="mailto:delimelo@wanadoo.fr"> <img class= "img-circle" id="email_icon1" src="email_icon.png"> </a>
+			</li>
+			<li id="footer">
 				 Aimez-moi <a href="https://www.facebook.com/mizikerik/" target="_blank"> <img class= "img-circle" id="email_icon2" src="facebook_icon.png"> </a> 
+			</li>
+			<li id="footer">
 				 Suivez-moi <a href="https://twitter.com/mizikerik" target="_blank"> <img class= "img-circle" id="email_icon3" src="twitter.png"> </a>
-			</p>
+			</li>
+		</ul>	
+		</center>
 		</i>
 				
 	</div>
