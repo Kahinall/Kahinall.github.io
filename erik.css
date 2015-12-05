@@ -179,7 +179,6 @@ p#actu1{
     width:360px;
     height: 270px;
     background:#FFD885;
-    text-align:center;
     border-radius:260px;
     padding: 15px;
     vertical-align: middle;
@@ -194,7 +193,7 @@ p#actu2{
   font-size: 35px;
   margin: 10px;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: left;
   
 
 }
