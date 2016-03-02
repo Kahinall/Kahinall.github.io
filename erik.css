@@ -107,8 +107,7 @@ h4{
 	font-family: "Give You Glory";
 	color: #058CB5;
 	
-	font-size: 25px;
-  
+	font-size: 25px;  
 }
 
 
@@ -193,8 +192,8 @@ p#actu2{
   font-size: 35px;
   margin: 10px;
   margin-bottom: 40px;
-  text-align: left;
-  
+  text-align: center;
+  text-indent: 0px;
 
 }
 
@@ -261,19 +260,15 @@ img.anim3 {
 
 /*EXHIBITIONS*/
 
+.carousel-inner{
+  height: 400px;
+}
+
 .crop-img{
-  max-height:100%;
+  max-height:400px;
   max-width:100%;
-  margin-bottom: 10px;
-  margin-top: 10px;
 }
 
-
-.large-img{
-	max-height: 200%;
-  max-width:100%;
-  margin-top: 10px;
-}
 
 
 /*SHOWS*/
@@ -400,7 +395,7 @@ p#pub{
 
 /*MEDIA QUERY FOR TABLET*/
 
-@media (max-width: 1300px) { 
+@media (max-width: 1024px) { 
 
       .container{
         margin: 0 auto;
@@ -498,6 +493,7 @@ p#pub{
       }
       p#actu2{
         font-size: 30px;
+        text-indent: 0px;
       }
 
       .circle{
@@ -582,7 +578,19 @@ p#pub{
         width: 90%;
         border-radius: 150px;
         padding: 30px;
-}
+        }
+
+
+        /*EXPOSITIONS*/
+
+        .carousel-inner{
+          height: 300px;
+        }
+
+        .crop-img{
+          max-height:300px;
+          max-width:100%;
+        }
       
 }
 
@@ -600,19 +608,17 @@ p#pub{
         font-size: 76px;
       }
       ul#navbar{
-        width: 225px;
+        width: 125px;
         text-align: right;
         margin-right: 0px;
         margin-left: 37%;
+        padding-right: 0px;
       }
       li#navbarli {
         display: block;
-        text-align: right;
-
        }
-       ul#navbar {
-        padding: 5px;
-      }
+
+
       a#navbara {
         font-size: 20px;
       }
@@ -679,6 +685,8 @@ p#pub{
       img.img-circle{
         height: 200px;
         width: 200px;
+        margin-left: 25%;
+
       }
       p#actu1{
         font-size: 20px;
@@ -690,19 +698,16 @@ p#pub{
 
       .circle{
         height: 170px;
+        margin-bottom: 10%; 
       }
 
       /*FOOTER*/
 
 
-      ul#footer{
-        text-align: right;
-      }
-
       li#footer{
         display: block;
         text-align: right;
-        font-size: 20px;
+        font-size: 15px;
       }
 
       #email_icon1 {
@@ -711,6 +716,7 @@ p#pub{
         margin-right: 8px;
         margin-top: 10px;
         margin-bottom: 5px;
+        margin-left: 0px;
 
       }
 
@@ -777,3 +783,14 @@ p#pub{
         height: 215px;
 
       }
+
+         /*EXPOSITIONS*/
+
+        .carousel-inner{
+          height: 250px;
+        }
+
+        .crop-img{
+          max-height:250px;
+          max-width:100%;
+        }

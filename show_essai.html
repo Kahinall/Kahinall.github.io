@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title> Erik Animations musicales
+        </title>
+
+        <link rel="stylesheet"
+              type="text/css"
+              href="dist/css/bootstrap.css"
+              />
+        
+        <link rel="stylesheet" 
+            type="text/css" 
+            href="erik.css">
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/handlebars-v3.0.3.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+>
+
+        <script src="show_essai_data.js"> </script>
+        <script src="show_essai.js"> </script>
+
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Chewy|Coming+Soon|Luckiest+Guy|Patrick+Hand|Fredericka+the+Great|Sue+Ellen+Francisco|Give+You+Glory|Kranky|Short+Stack|Patrick+Hand+SC|Mountains+of+Christmas|Vibur|Snowburst+One|League+Script|Jacques+Francois+Shadow|Rum+Raisin|Dekko' rel='stylesheet' type='text/css'>
+    </head>
+
+<body>
+
+<div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-md-2">
+
+                    <ul class="list-group scrollable">
+                         <li    role="" 
+                                class="active">
+                                <a href="#"
+                                    id="show1">KDANSE MAXIMÔME</a>
+                         </li>
+                         <li    role="">
+                                <a href="#"
+                                    id="show2">ANIMÔMES</a>
+                         </li>
+                         <li    role="">
+                                <a href="#"  id="show3">LA BERGERE ENDORMIE</a>
+                         </li>
+                         <li    role="">
+                                <a href="#"  id="show4">SI TU M'AIMES IL FAUT LE DIRE</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="col-xs-12 col-md-10">
+
+                    <div id="content"  class="container-fluid"  role="main">
+                    </div>
+            </div>
+        </div> <!-- end class row -->
+
+</div> <!-- end class container -->
+
+<script id="show-template" type="text/x-handlebars-template">
+  <div class="row">
+    <div class="col-xs-12 col-md-12"> 
+        <h3> {{titre}} </h3>
+        <p> {{description}} </p>
+        <img class="large-img" src="{{photo}}" alt=""/>
+    </div> // <!-- / col -->
+
+  </div> // <!-- / row -->
+</script>
+</body>
+
